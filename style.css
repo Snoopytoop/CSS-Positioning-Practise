@@ -1,0 +1,163 @@
+.P {
+  background-color: aqua;
+  width: 75%;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.four {
+  background-color: coral;
+}
+
+.P-a {
+  background-color: aqua;
+  width: 75%;
+  position: relative;
+  left: 40px;
+}
+
+.one-a {
+  background-color: red;
+  position: relative;
+  left: 20px;
+}
+
+.two-a {
+  background-color: green;
+}
+
+.three-a {
+  background-color: yellow;
+}
+
+.four-a {
+  background-color: coral;
+  position: relative;
+  top: 30px;
+}
+
+.H {
+  margin-top: 50px;
+}
+
+.P-b {
+  background-color: aqua;
+  width: 75%;
+  position: relative;
+}
+
+.one-b {
+  background-color: red;
+  position: absolute;
+}
+
+.two-b {
+  background-color: green;
+}
+
+.three-b {
+  background-color: yellow;
+  position: absolute;
+  left: 40px;
+  width: 100%;
+}
+
+.four-b {
+  background-color: coral;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+.container {
+    margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  border: solid black 5px;
+  height: 300px;
+  position: relative;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.p-c {
+  background-color: aqua;
+  width: 75%;
+}
+
+.one-c {
+  background-color: red;
+  position: absolute;
+}
+
+.two-c {
+  background-color: green;
+}
+
+.three-c {
+  background-color: yellow;
+  position: absolute;
+  left: 40px;
+  width: 75%;
+}
+
+.four-c {
+  background-color: coral;
+  position: absolute;
+  top: 80px;
+  width: 75%;
+}
+
+#fixed {
+  position: fixed;
+  width: 150px;
+  background-color: black;
+  color: white;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+#container-sticky {
+  height: 2000px;
+  width: 80%;
+  border: 10px solid black;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+
+.block {
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    line-height: 200px;
+}
+
+.block h1 {
+    color: aqua;
+    margin: 0;
+}
+
+.menu {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.menu h1 {
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+}
