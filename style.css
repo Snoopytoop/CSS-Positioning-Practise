@@ -129,7 +129,7 @@
 }
 
 #container-sticky {
-  height: 2000px;
+  height: 1000px;
   width: 80%;
   border: 10px solid black;
   margin: auto;
@@ -154,10 +154,24 @@
     background-color: blue;
     color: white;
     text-align: center;
+    position: sticky;
+    top: 0px;
 }
 
 .menu h1 {
     margin: 0px;
-    position: sticky;
-    top: 0px;
+}
+
+#lorem {
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.container-sticky-a {
+    height: 1000px;
+    width: 80%;
+    border: 5px solid red;
+    margin: auto
 }
