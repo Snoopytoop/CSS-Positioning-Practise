@@ -134,7 +134,6 @@
   border: 10px solid black;
   margin: auto;
   margin-top: 30px;
-  position: relative;
 }
 
 .block {
@@ -169,9 +168,26 @@
     font-size: large;
 }
 
-.container-sticky-a {
-    height: 1000px;
-    width: 80%;
-    border: 5px solid red;
-    margin: auto
+.list-group {
+    background-color: aqua;
+    color: red;
+    text-align: center;
+}
+
+.list-header {
+    background-color: coral;
+    color: white;
+    width: 75%;
+    position: sticky;
+    top: 0px;
+    margin: auto;
+}
+
+#space {
+    height: 800px;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 50px;
 }
